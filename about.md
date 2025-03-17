@@ -36,3 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
+
+
+
+<div style="position: fixed; bottom: 20px; right: 20px; background: rgba(0,0,0,0.7); padding: 10px; border-radius: 10px; text-align: center; color: white;">
+    <p style="margin: 0;">🎵 Given Instrumental</p>
+    <iframe width="200" height="113" src="https://www.youtube.com/embed/HPaS3w5iUZc?autoplay=1&loop=1&playlist=HPaS3w5iUZc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
