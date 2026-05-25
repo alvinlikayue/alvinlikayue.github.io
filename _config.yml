@@ -1,11 +1,11 @@
 theme: minima
-title: "Alvin Li Ka Yue"
-description: "Research website for Alvin Li Ka Yue, focused on gravitational-wave physics, compact binary astrophysics, and lensing searches."
+title: "Alvin Ka Yue Li"
+description: "Research website for Alvin Ka Yue Li, focused on gravitational-wave data analysis, low-latency detection, sky localization, and gravitational-wave lensing."
 url: "https://alvinlikayue.github.io"
 
 author:
-  name: "Alvin Li Ka Yue"
-  email: ""
+  name: "Alvin Ka Yue Li"
+  email: "alvinli@g.ecc.u-tokyo.ac.jp"
 
 navigation:
   - title: "Home"

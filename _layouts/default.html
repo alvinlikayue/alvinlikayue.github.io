@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header class="site-header">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="" class="brand-logo">
+    <input class="menu-state" type="checkbox" id="menu-state" aria-label="Toggle navigation">
+
+    <aside class="sidebar" aria-label="Primary navigation">
+        <label class="menu-toggle" for="menu-state">Menu</label>
+
+        <a class="sidebar-title" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="">
             <span>
                 <strong>{{ site.title }}</strong>
                 <small>Gravitational-wave physics</small>
             </span>
         </a>
 
-        <nav class="site-nav" aria-label="Main navigation">
+        <nav class="site-nav">
             {% for item in site.navigation %}
                 <a href="{{ item.url | relative_url }}" {% if page.nav_key == item.key %}aria-current="page"{% endif %}>{{ item.title }}</a>
             {% endfor %}
         </nav>
-    </header>
+    </aside>
 
-    <main class="page-shell">
-        {{ content }}
+    <main class="page-shell" id="content">
+        <article class="content-panel">
+            {{ content }}
+        </article>
     </main>
 
     <footer class="site-footer">
