@@ -1,3 +1,34 @@
 theme: minima
-title: "Alvin Li Ka Yue | Researcher in Gravitational Wave Physics"
-description: "Personal website of Alvin Li Ka Yue, featuring research, teaching, and a personal story of connection with Given."
+title: "Alvin Li Ka Yue"
+description: "Research website for Alvin Li Ka Yue, focused on gravitational-wave physics, compact binary astrophysics, and lensing searches."
+url: "https://alvinlikayue.github.io"
+
+author:
+  name: "Alvin Li Ka Yue"
+  email: ""
+
+navigation:
+  - title: "Home"
+    key: "home"
+    url: "/"
+  - title: "About"
+    key: "about"
+    url: "/about/"
+  - title: "Research"
+    key: "research"
+    url: "/research/"
+  - title: "Teaching"
+    key: "teaching"
+    url: "/teaching/"
+  - title: "CV"
+    key: "cv"
+    url: "/cv/"
+  - title: "Contact"
+    key: "contact"
+    url: "/contact/"
+
+exclude:
+  - reference/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock

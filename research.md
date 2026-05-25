@@ -1,55 +1,47 @@
 ---
 layout: default
 title: Research
+nav_key: research
+permalink: /research/
+description: "Research interests and projects for Alvin Li Ka Yue."
 ---
-# My Research
 
-I specialize in **gravitational wave physics** and related astrophysical phenomena. My work focuses on:
+# Research
 
-- [Research Topic 1]
-- [Research Topic 2]
-- [Research Topic 3]
+<p class="lead">My research centers on gravitational-wave data analysis, compact binary astrophysics, and methods for following up candidate lensing signatures.</p>
 
-Feel free to check my [publications](#) for more details.
+## Themes
 
+<div class="section-grid">
+  <article class="card">
+    <h3>Gravitational-Wave Event Analysis</h3>
+    <p>Studying compact binary candidates through parameter estimation, population context, and detector-data quality checks.</p>
+  </article>
+  <article class="card">
+    <h3>TESLA-X and Lensing Follow-Up</h3>
+    <p>Developing and using analysis workflows for targeted lensing searches across superthreshold and sub-threshold candidates.</p>
+  </article>
+  <article class="card">
+    <h3>Scientific Web Tools</h3>
+    <p>Building summary pages and monitoring tools that make complex analysis state easier for collaborators to inspect.</p>
+  </article>
+</div>
 
+## Current Work
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var youtubeVideos = [
-        "xCUWT2FF0aI?si=l_6lae8Qa7kxdZEp",
-        "XvkkBhpG2hs?si=f9CAdVuhq0AFxWjk&start=4",
-        "NHip3wPtwKo?si=e6RyYp9-2Ik2pDJ6&start=2",
-        "lHv96e1yZGs?si=oatI2xsJnx9Obbrz",
-        "WAHBocKLmiw?si=bZfgWcislPApb1oz"
-    ];
+<ul class="list-clean">
+  <li><strong>Targeted searches for lensed gravitational-wave candidates.</strong><br>Analysis workflows that connect event properties, template-bank construction, population models, and follow-up search output.</li>
+  <li><strong>Event summary infrastructure.</strong><br>Static pages and scripts for organizing analysis status, plots, candidate links, and detector-context information.</li>
+  <li><strong>Compact binary interpretation.</strong><br>Using mass, spin, and signal-consistency information to understand candidate events and prioritize follow-up.</li>
+</ul>
 
-    // Check if a video is already playing in session storage
-    if (!sessionStorage.getItem("currentVideo")) {
-        var randomVideo = youtubeVideos[Math.floor(Math.random() * youtubeVideos.length)];
-        sessionStorage.setItem("currentVideo", randomVideo);
-    }
+## Selected Outputs
 
-    var iframe = document.createElement("iframe");
-    iframe.width = "300";
-    iframe.height = "169";
-    iframe.src = "https://www.youtube.com/embed/" + sessionStorage.getItem("currentVideo") + "&autoplay=1&loop=1&playlist=" + sessionStorage.getItem("currentVideo");
-    iframe.frameBorder = "0";
-    iframe.allow = "autoplay; encrypted-media";
-    iframe.allowFullscreen = true;
+<div class="callout">
+  <p>Add publication links, collaboration notes, or arXiv/INSPIRE entries here once you want the public bibliography finalized.</p>
+</div>
 
-    var musicContainer = document.createElement("div");
-    musicContainer.style.position = "fixed";
-    musicContainer.style.bottom = "20px";
-    musicContainer.style.right = "20px";
-    musicContainer.style.background = "rgba(0,0,0,0.7)";
-    musicContainer.style.padding = "10px";
-    musicContainer.style.borderRadius = "10px";
-    musicContainer.style.textAlign = "center";
-    musicContainer.style.color = "white";
-    musicContainer.innerHTML = "<p style='margin: 0;'>🎵 Given Instrumental</p>";
-    musicContainer.appendChild(iframe);
-
-    document.body.appendChild(musicContainer);
-});
-</script>
+<figure class="visual-panel">
+  <img src="{{ '/assets/images/chirps_production.png' | relative_url }}" alt="Production chirp analysis visualization">
+  <figcaption class="caption">A visual anchor from the reference TESLA-X analysis page.</figcaption>
+</figure>

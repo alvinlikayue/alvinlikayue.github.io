@@ -1,58 +1,45 @@
 ---
 layout: default
 title: CV
+nav_key: cv
+permalink: /cv/
+description: "Curriculum vitae for Alvin Li Ka Yue."
 ---
+
 # Curriculum Vitae
 
-Download my full CV [here](assets/files/Alvin_CV.pdf).
+<p class="lead">A concise public CV page. Replace the placeholders below with final institution names, dates, publication links, and downloadable PDF when available.</p>
+
+<div class="callout">
+  <p>Add `assets/files/Alvin_CV.pdf` when the finalized PDF is ready, then link it from this section.</p>
+</div>
 
 ## Education
-- **PhD in [Your Field]**, California Institute of Technology (Caltech)
-- **MSc in Public Policy**, University of Tokyo
-- **BSc in Biology & Business**, Cornell University
+
+<div class="timeline">
+  <div class="timeline-item">
+    <strong>PhD, California Institute of Technology</strong>
+    <span class="meta">Field and dates to be confirmed.</span>
+  </div>
+  <div class="timeline-item">
+    <strong>MSc in Public Policy, University of Tokyo</strong>
+    <span class="meta">Dates to be confirmed.</span>
+  </div>
+  <div class="timeline-item">
+    <strong>BSc, Cornell University</strong>
+    <span class="meta">Biology and business; dates to be confirmed.</span>
+  </div>
+</div>
 
 ## Research Experience
-- **Postdoctoral Researcher**, University of Tokyo (2024–Present)
-- **Consultant**, [Previous Work]
 
+<ul class="list-clean">
+  <li><strong>Postdoctoral Researcher, University of Tokyo</strong><br><span class="meta">2024-present, based on the existing draft CV page.</span></li>
+  <li><strong>Gravitational-wave analysis and TESLA-X workflows</strong><br><span class="meta">Lensing follow-up, event summaries, and compact binary analysis.</span></li>
+</ul>
 
+## Publications
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var youtubeVideos = [
-        "xCUWT2FF0aI?si=l_6lae8Qa7kxdZEp",
-        "XvkkBhpG2hs?si=f9CAdVuhq0AFxWjk&start=4",
-        "NHip3wPtwKo?si=e6RyYp9-2Ik2pDJ6&start=2",
-        "lHv96e1yZGs?si=oatI2xsJnx9Obbrz",
-        "WAHBocKLmiw?si=bZfgWcislPApb1oz"
-    ];
-
-    // Check if a video is already playing in session storage
-    if (!sessionStorage.getItem("currentVideo")) {
-        var randomVideo = youtubeVideos[Math.floor(Math.random() * youtubeVideos.length)];
-        sessionStorage.setItem("currentVideo", randomVideo);
-    }
-
-    var iframe = document.createElement("iframe");
-    iframe.width = "300";
-    iframe.height = "169";
-    iframe.src = "https://www.youtube.com/embed/" + sessionStorage.getItem("currentVideo") + "&autoplay=1&loop=1&playlist=" + sessionStorage.getItem("currentVideo");
-    iframe.frameBorder = "0";
-    iframe.allow = "autoplay; encrypted-media";
-    iframe.allowFullscreen = true;
-
-    var musicContainer = document.createElement("div");
-    musicContainer.style.position = "fixed";
-    musicContainer.style.bottom = "20px";
-    musicContainer.style.right = "20px";
-    musicContainer.style.background = "rgba(0,0,0,0.7)";
-    musicContainer.style.padding = "10px";
-    musicContainer.style.borderRadius = "10px";
-    musicContainer.style.textAlign = "center";
-    musicContainer.style.color = "white";
-    musicContainer.innerHTML = "<p style='margin: 0;'>🎵 Given Instrumental</p>";
-    musicContainer.appendChild(iframe);
-
-    document.body.appendChild(musicContainer);
-});
-</script>
+<div class="callout">
+  <p>Add selected publications, collaboration papers, ORCID, INSPIRE, Google Scholar, or arXiv links here.</p>
+</div>

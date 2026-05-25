@@ -1,53 +1,50 @@
 ---
 layout: default
 title: Home
+nav_key: home
+description: "Research website for Alvin Li Ka Yue."
 ---
-# Welcome to My Research Website
 
-Hi, I'm Alvin Li Ka Yue, a researcher in **Gravitational Wave Physics**. This website showcases my work, research interests, teaching experience, and my personal journey.
+<section class="hero">
+  <div>
+    <p class="eyebrow">Research in gravitational-wave physics</p>
+    <h1>Alvin Li Ka Yue</h1>
+    <p class="lead">I work on gravitational-wave astrophysics, compact binary signals, and searches for lensing signatures in detector data.</p>
+    <p>This website collects my research interests, teaching and mentoring activity, and current academic profile. The reference material in this repository points to TESLA-X O4 analysis work and gravitational-wave event follow-up infrastructure.</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="button secondary" href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
+  </div>
+  <figure class="visual-panel">
+    <img src="{{ '/assets/images/chirps_production.png' | relative_url }}" alt="Gravitational-wave chirp analysis visualization">
+    <figcaption class="caption">Signal and event-level analysis are central to my research workflow.</figcaption>
+  </figure>
+</section>
 
-*Given* holds a special place in my heart. Music and research intertwine in my life, and this website reflects that connection.
+## Research Focus
 
-📜 Navigate through the sections to learn more about my work and passion.
+<div class="section-grid">
+  <article class="card">
+    <h3>Compact Binary Signals</h3>
+    <p>Inference and interpretation for gravitational-wave candidates from binary black holes and related compact-object systems.</p>
+  </article>
+  <article class="card">
+    <h3>Lensing Searches</h3>
+    <p>Search strategies for identifying possible lensing signatures, including sub-threshold and follow-up analyses.</p>
+  </article>
+  <article class="card">
+    <h3>Analysis Infrastructure</h3>
+    <p>Tools for reproducible summaries, monitoring, and collaboration around gravitational-wave event analyses.</p>
+  </article>
+</div>
 
+## Collaboration
 
+<p>I work in the broader gravitational-wave community and with analysis ecosystems connected to ground-based detectors.</p>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var youtubeVideos = [
-        "xCUWT2FF0aI?si=l_6lae8Qa7kxdZEp",
-        "XvkkBhpG2hs?si=f9CAdVuhq0AFxWjk&start=4",
-        "NHip3wPtwKo?si=e6RyYp9-2Ik2pDJ6&start=2",
-        "lHv96e1yZGs?si=oatI2xsJnx9Obbrz",
-        "WAHBocKLmiw?si=bZfgWcislPApb1oz"
-    ];
-
-    // Check if a video is already playing in session storage
-    if (!sessionStorage.getItem("currentVideo")) {
-        var randomVideo = youtubeVideos[Math.floor(Math.random() * youtubeVideos.length)];
-        sessionStorage.setItem("currentVideo", randomVideo);
-    }
-
-    var iframe = document.createElement("iframe");
-    iframe.width = "300";
-    iframe.height = "169";
-    iframe.src = "https://www.youtube.com/embed/" + sessionStorage.getItem("currentVideo") + "&autoplay=1&loop=1&playlist=" + sessionStorage.getItem("currentVideo");
-    iframe.frameBorder = "0";
-    iframe.allow = "autoplay; encrypted-media";
-    iframe.allowFullscreen = true;
-
-    var musicContainer = document.createElement("div");
-    musicContainer.style.position = "fixed";
-    musicContainer.style.bottom = "20px";
-    musicContainer.style.right = "20px";
-    musicContainer.style.background = "rgba(0,0,0,0.7)";
-    musicContainer.style.padding = "10px";
-    musicContainer.style.borderRadius = "10px";
-    musicContainer.style.textAlign = "center";
-    musicContainer.style.color = "white";
-    musicContainer.innerHTML = "<p style='margin: 0;'>🎵 Given Instrumental</p>";
-    musicContainer.appendChild(iframe);
-
-    document.body.appendChild(musicContainer);
-});
-</script>
+<div class="logos" aria-label="Detector collaboration logos">
+  <img src="{{ '/assets/images/ligo.png' | relative_url }}" alt="LIGO">
+  <img src="{{ '/assets/images/virgo.png' | relative_url }}" alt="Virgo">
+  <img src="{{ '/assets/images/kagra.png' | relative_url }}" alt="KAGRA">
+</div>
