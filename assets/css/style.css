@@ -825,6 +825,34 @@ caption {
     outline: none;
 }
 
+.role-slideshow {
+    margin-top: 14px;
+    min-height: 0;
+    padding-bottom: 94px;
+    border: 1px solid rgba(36, 49, 63, 0.12);
+}
+
+.role-slideshow .slideshow-slide img {
+    aspect-ratio: 16 / 7;
+}
+
+.role-slideshow .slideshow-caption-panel {
+    min-height: 42px;
+    padding: 10px 12px 0;
+    font-size: 0.82rem;
+}
+
+.role-slideshow .slideshow-controls {
+    grid-template-columns: 34px minmax(0, 1fr) 34px;
+    padding: 8px 10px 10px;
+}
+
+.role-slideshow .slideshow-nav {
+    width: 34px;
+    height: 34px;
+    font-size: 1.1rem;
+}
+
 .research-figures .visual-panel img {
     aspect-ratio: 16 / 10;
     background: #fff;

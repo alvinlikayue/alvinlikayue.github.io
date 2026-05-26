@@ -67,29 +67,55 @@ description: "Teaching, mentoring, and outreach by Alvin Ka Yue Li."
       <blockquote class="compliment-text">“Alvin, thank you for your great support throughout the entire course. I really appreciate it. And I really enjoyed chocolates and sweets that you gave us. I hope that all the best things in life come your way and that you have a great life ahead.”</blockquote>
       <blockquote class="compliment-text">“Alvin is the single best TA I've ever had. You, with your "lecture notes", single-handedly helped me turn around my grade from a disaster to a modest B+! I couldn't have done this without your help. From the bottom of my heart, thank you so much for all you do.”</blockquote>
     </details>
-    <div class="figure-grid">
-      <figure class="visual-panel">
+    <div class="slideshow role-slideshow" data-slideshow data-interval="6500">
+      <div class="slideshow-slide">
         <a href="{{ '/assets/images/ph106a_ta_ratings_2019_20.png' | relative_url }}" target="_blank" rel="noopener">
           <img src="{{ '/assets/images/ph106a_ta_ratings_2019_20.png' | relative_url }}" alt="FA 2019-20 Ph106a teaching assistant ratings for Alvin Li">
         </a>
-        <figcaption class="caption">FA 2019-20 Ph 106A teaching assistant ratings for Alvin Li.</figcaption>
-      </figure>
-      <figure class="visual-panel">
+        <div class="slideshow-caption">FA 2019-20 Ph 106A teaching assistant ratings for Alvin Li.</div>
+      </div>
+      <div class="slideshow-slide">
         <a href="{{ '/assets/images/ph106a_ta_ratings_2022_23.png' | relative_url }}" target="_blank" rel="noopener">
           <img src="{{ '/assets/images/ph106a_ta_ratings_2022_23.png' | relative_url }}" alt="FA 2022-23 Ph106a teaching assistant ratings for Ka Yue Li">
         </a>
-        <figcaption class="caption">FA 2022-23 Ph 106A teaching assistant ratings for Ka Yue Li.</figcaption>
-      </figure>
+        <div class="slideshow-caption">FA 2022-23 Ph 106A teaching assistant ratings for Ka Yue Li.</div>
+      </div>
     </div>
   </div>
 
   <div class="role-item">
     <div class="role-header">
-      <span class="role-pill">Invited lecture</span>
-      <span class="role-meta">California Institute of Technology, Summer 2021</span>
+      <span class="role-pill">Research program</span>
+      <span class="role-meta">LIGO SURF, 2018 and 2020-2023</span>
     </div>
-    <strong>Invited Lecturer, LIGO Summer Undergraduate Research Fellowship</strong>
-    <p>Delivered an invited lecture introducing gravitational-wave lensing to undergraduate researchers.</p>
+    <strong>Student Researcher, Mentor, and Invited Lecturer, LIGO Summer Undergraduate Research Fellowship</strong>
+    <p>I first joined <a href="https://labcit.ligo.caltech.edu/LIGO_web/students/SURF/">LIGO SURF</a> as a student researcher in 2018. I later returned as a mentor for undergraduate research projects and as an invited lecturer from 2021 through 2023, giving Physics of LIGO seminars that introduced students to gravitational-wave lensing.</p>
+    <div class="slideshow role-slideshow" data-slideshow data-interval="6500">
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/ligo_surf_2018_alvin.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/ligo_surf_2018_alvin.jpg' | relative_url }}" alt="Alvin Li as a LIGO SURF student in 2018">
+        </a>
+        <div class="slideshow-caption">LIGO SURF 2018, when I joined the program as a student researcher.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/ligo_surf_2022_photo.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/ligo_surf_2022_photo.jpg' | relative_url }}" alt="LIGO SURF 2022 photo at Caltech">
+        </a>
+        <div class="slideshow-caption">LIGO SURF 2022 at Caltech.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/ligo_surf_2023_mentoring.jpeg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/ligo_surf_2023_mentoring.jpeg' | relative_url }}" alt="LIGO SURF 2023 mentoring photo at Caltech">
+        </a>
+        <div class="slideshow-caption">LIGO SURF 2023 mentoring at Caltech.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/ligo_surf_2023_lensing_lecture.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/ligo_surf_2023_lensing_lecture.png' | relative_url }}" alt="Title slide from the LIGO SURF 2023 Physics of LIGO seminar on lensing of gravitational waves">
+        </a>
+        <div class="slideshow-caption">Title slide from the 2023 Physics of LIGO seminar on lensing of gravitational waves.</div>
+      </div>
+    </div>
   </div>
 
   <div class="role-item">
@@ -103,11 +129,68 @@ description: "Teaching, mentoring, and outreach by Alvin Ka Yue Li."
 
   <div class="role-item">
     <div class="role-header">
-      <span class="role-pill">Outreach coaching</span>
-      <span class="role-meta">2016 - 2018</span>
+      <span class="role-pill">Olympiad coaching</span>
+      <span class="role-meta">Po Leung Kuk Tang Yuk Tien College, 2016 - 2018</span>
     </div>
     <strong>Coach, High School Physics Olympiad Team</strong>
-    <p>Taught calculus-based classical mechanics and developed lecture notes and problem sets for advanced secondary-school students.</p>
+    <p>Taught calculus-based classical mechanics for advanced secondary-school students preparing for the Hong Kong Physics Olympiad. I built a structured training sequence covering vectors, limits, differentiation, integration, multi-dimensional motion, curvilinear coordinates, Newtonian mechanics, torque, angular momentum, energy, momentum, and simple harmonic motion.</p>
+    <p>The course materials included handwritten lecture notes, weekly problem sets, progress tests, mock papers, and supplementary readings designed to bridge school physics with first-year undergraduate mechanics.</p>
+    <div class="slideshow role-slideshow" data-slideshow data-interval="6500">
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_students_classroom.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_students_classroom.jpg' | relative_url }}" alt="HKPhO students in a classroom with Alvin Li">
+        </a>
+        <div class="slideshow-caption">Physics Olympiad students during a training session.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_students_lecture_hall.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_students_lecture_hall.jpg' | relative_url }}" alt="HKPhO students in a lecture hall with Alvin Li">
+        </a>
+        <div class="slideshow-caption">Students attending a physics event as part of the training programme.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_students_cuhk.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_students_cuhk.jpg' | relative_url }}" alt="HKPhO students visiting CUHK with Alvin Li">
+        </a>
+        <div class="slideshow-caption">Physics Olympiad students visiting CUHK.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_students_science_festival.jpg' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_students_science_festival.jpg' | relative_url }}" alt="HKPhO students at a science festival with Alvin Li">
+        </a>
+        <div class="slideshow-caption">Students at a public science event connected to the training programme.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_training_notes.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_training_notes.png' | relative_url }}" alt="Handwritten Hong Kong Physics Olympiad training notes on vectors">
+        </a>
+        <div class="slideshow-caption">Handwritten HKPhO training notes introducing vectors and physical quantities.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_problem_set.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_problem_set.png' | relative_url }}" alt="Hong Kong Physics Olympiad training problem set on vectors">
+        </a>
+        <div class="slideshow-caption">Weekly problem sets used to reinforce concepts and build competition problem-solving fluency.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_problem_set_solutions.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_problem_set_solutions.png' | relative_url }}" alt="Hong Kong Physics Olympiad training problem set solutions on vectors">
+        </a>
+        <div class="slideshow-caption">Solution notes highlighted the reasoning behind competition-style vector questions.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_training_timetable.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_training_timetable.png' | relative_url }}" alt="Hong Kong Physics Olympiad training timetable">
+        </a>
+        <div class="slideshow-caption">Training timetable mapping each week to topics, problem sets, and progress checks.</div>
+      </div>
+      <div class="slideshow-slide">
+        <a href="{{ '/assets/images/hkpho_mock_paper.png' | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ '/assets/images/hkpho_mock_paper.png' | relative_url }}" alt="Hong Kong Physics Olympiad 2018 mock paper cover page">
+        </a>
+        <div class="slideshow-caption">Mock-paper preparation for the 2018 Hong Kong Physics Olympiad.</div>
+      </div>
+    </div>
   </div>
 </div>
 
