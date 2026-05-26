@@ -8,9 +8,22 @@ description: "About Alvin Ka Yue Li."
 
 # About
 
-<p class="lead">This page summarizes my current position, appointments, research areas, and background.</p>
+<p class="lead">A compact overview of my current roles, research areas, and background.</p>
 
-I work on gravitational-wave data analysis, low-latency alerts, sky localization, and gravitational-wave lensing at the University of Tokyo. Within the LIGO-Virgo-KAGRA collaboration, I co-chair the KAGRA Low-Latency Group.
+<div class="research-summary">
+  <div>
+    <span class="summary-label">Current role</span>
+    <strong>Researcher in gravitational-wave data analysis at the University of Tokyo</strong>
+  </div>
+  <div>
+    <span class="summary-label">Collaboration role</span>
+    <strong>Co-chair, KAGRA Low-Latency Group</strong>
+  </div>
+  <div>
+    <span class="summary-label">Support</span>
+    <strong>Croucher Postdoctoral Fellowship, 2024 - 2026</strong>
+  </div>
+</div>
 
 ## Appointments
 
@@ -36,9 +49,9 @@ I work on gravitational-wave data analysis, low-latency alerts, sky localization
     <strong>Croucher Postdoctoral Fellowship</strong>
     <span class="meta">Croucher Foundation, 2024 - 2026</span>
     <ul class="list-clean">
-      <li><strong>Purpose</strong><br><span class="meta">Postdoctoral fellowship supporting full-time research in natural sciences, medicine, or technology outside Hong Kong.</span></li>
-      <li><strong>Public directory summary</strong><br><span class="meta">USD48,240.</span></li>
-      <li><strong>Award package</strong><br><span class="meta">Maintenance, airfare, and research allowance.</span></li>
+      <li><strong>Purpose</strong><br><span class="meta">Full-cost postdoctoral award supporting full-time research in natural sciences, medicine, or technology outside Hong Kong.</span></li>
+      <li><strong>Annual maintenance allowance</strong><br><span class="meta">USD48,240 per annum.</span></li>
+      <li><strong>Additional support</strong><br><span class="meta">Airfares, a one-off arrival allowance, and other allowances.</span></li>
       <li><strong>Croucher profile</strong><br><a href="https://croucher.org.hk/en/fellows-and-scholars/alvin-li">croucher.org.hk/en/fellows-and-scholars/alvin-li</a></li>
     </ul>
   </div>

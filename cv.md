@@ -62,9 +62,9 @@ description: "Curriculum vitae for Alvin Ka Yue Li."
     <strong>Croucher Postdoctoral Fellowship</strong><br>
     <span class="meta">Croucher Foundation, 2024 - 2026</span>
     <ul class="list-clean">
-      <li><strong>Purpose</strong><br><span class="meta">Postdoctoral fellowship supporting full-time research in natural sciences, medicine, or technology outside Hong Kong.</span></li>
-      <li><strong>Public directory summary</strong><br><span class="meta">USD48,240.</span></li>
-      <li><strong>Award package</strong><br><span class="meta">Maintenance, airfare, and research allowance.</span></li>
+      <li><strong>Purpose</strong><br><span class="meta">Full-cost postdoctoral award supporting full-time research in natural sciences, medicine, or technology outside Hong Kong.</span></li>
+      <li><strong>Annual maintenance allowance</strong><br><span class="meta">USD48,240 per annum.</span></li>
+      <li><strong>Additional support</strong><br><span class="meta">Airfares, a one-off arrival allowance, and other allowances.</span></li>
     </ul>
   </li>
 </ul>
@@ -74,10 +74,10 @@ description: "Curriculum vitae for Alvin Ka Yue Li."
 <ul class="list-clean">
   <li><strong>Best Presentation Award</strong><br><span class="meta">33rd Workshop on General Relativity and Gravitation in Japan, 2024</span></li>
   <li><strong>Croucher Postdoctoral Fellowship</strong><br><span class="meta">Croucher Foundation, 2024</span></li>
-  <li><strong>ARC Course Teaching Compliment</strong><br><span class="meta">California Institute of Technology, 2023</span></li>
+  <li><strong>ARC Course Teaching Compliment</strong><br><span class="meta">California Institute of Technology, 2022-23 - student-collected recognition for teaching and support in Ph 106a.</span></li>
   <li><strong>Certificate of Appreciation for Outreach</strong><br><span class="meta">Pasadena City College, 2023</span></li>
   <li><strong>Danny Koh Graduate Fellowship</strong><br><span class="meta">California Institute of Technology, 2020</span></li>
-  <li><strong>ASCIT Teaching Award</strong><br><span class="meta">California Institute of Technology, 2020</span></li>
+  <li><strong>ASCIT Teaching Award</strong><br><span class="meta">California Institute of Technology, 2019-2020 - recognized for excellence in teaching by undergraduate students.</span></li>
   <li><strong>Dr Thomas Cheung Postgraduate Scholarship</strong><br><span class="meta">The Chinese University of Hong Kong, 2019</span></li>
   <li><strong>LIGO Summer Undergraduate Research Fellowship</strong><br><span class="meta">California Institute of Technology, 2018</span></li>
 </ul>

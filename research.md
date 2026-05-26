@@ -10,7 +10,7 @@ description: "Research interests and selected publications for Alvin Ka Yue Li."
 
 <p class="lead">I develop gravitational-wave data-analysis methods for real-time detection, sky localization, and searches for strongly lensed signals.</p>
 
-My work is motivated by a central problem in gravitational-wave astronomy: many scientifically valuable signals are difficult to identify with standard single-event searches. These include subthreshold events, repeated signals from gravitational lensing, microlensing signatures, and signals whose interpretation depends on rapid multi-messenger follow-up. I work on methods that combine low-latency detection systems, targeted searches, cross-event consistency, and astrophysical priors.
+My work is motivated by a central problem in gravitational-wave astronomy: many scientifically valuable signals are difficult to identify with standard single-event searches. These include subthreshold events, repeated signals from gravitational lensing, microlensing signatures, and signals whose interpretation depends on rapid multi-messenger follow-up. I work on methods that combine low-latency detection systems, targeted searches, cross-event consistency, and astrophysical priors. A more visual overview of the same themes is on the <a href="{{ '/interests/' | relative_url }}">Interests</a> page.
 
 <div class="research-summary">
   <div>
