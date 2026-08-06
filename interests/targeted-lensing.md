@@ -153,7 +153,7 @@ TESLA-X extends the idea. Instead of only reducing the bank around the first eve
     <span class="research-number">03</span>
     <div>
       <h3>O4b lensing paper</h3>
-      <p>I am the <strong>editorial team chair</strong> for the O4b lensing paper, coordinating the writing process and helping steer the collaboration toward a consistent final analysis narrative.</p>
+      <p>I am the <strong>editorial team chair</strong> for the O4b lensing paper, coordinating the writing process and helping steer the collaboration toward a consistent final analysis narrative. I also wrote a dedicated account of the <a href="{{ '/interests/gwtc5-o4b-lensing-incident/' | relative_url }}">GWTC-5/O4b validation and governance dispute</a>.</p>
     </div>
   </section>
 </div>
@@ -175,5 +175,6 @@ TESLA-X extends the idea. Instead of only reducing the bank around the first eve
 
 <ul class="list-clean">
   <li><strong><a href="{{ '/research/' | relative_url }}">Research summary</a></strong><br><span class="meta">Broader technical overview and publication list.</span></li>
+  <li><strong><a href="{{ '/interests/gwtc5-o4b-lensing-incident/' | relative_url }}">GWTC-5 / O4b lensing incident</a></strong><br><span class="meta">First-person account of the validation, governance, and publication-strategy dispute around the O4b lensing paper.</span></li>
   <li><strong><a href="{{ '/interests/sky-localization/' | relative_url }}">Sky localization</a></strong><br><span class="meta">Repeated images and host-galaxy targeting.</span></li>
 </ul>

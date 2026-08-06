@@ -25,6 +25,10 @@ My research is organized around methods rather than isolated topics. Each area b
     <h3><a href="{{ '/interests/sky-localization/' | relative_url }}">Sky Localization</a></h3>
     <p>Detector geometry, localization maps, and repeated-image localization.</p>
   </article>
+  <article class="card">
+    <h3><a href="{{ '/interests/gwtc5-o4b-lensing-incident/' | relative_url }}">GWTC-5 / O4b Lensing Incident</a></h3>
+    <p>A first-person account of the validation, governance, and publication-strategy dispute around the O4b lensing paper.</p>
+  </article>
 </div>
 
 ## Recent Highlights
