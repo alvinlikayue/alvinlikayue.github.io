@@ -3,6 +3,8 @@ layout: default
 title: Low-Latency Detection
 nav_key: interests
 permalink: /interests/low-latency/
+lang: en
+alternate_url: /ja/interests/low-latency/
 description: "Low-latency gravitational-wave detection and alerts by Alvin Ka Yue Li."
 ---
 

@@ -3,6 +3,8 @@ layout: default
 title: Interests
 nav_key: interests
 permalink: /interests/
+lang: en
+alternate_url: /ja/interests/
 description: "Research interests and selected highlights for Alvin Ka Yue Li."
 ---
 

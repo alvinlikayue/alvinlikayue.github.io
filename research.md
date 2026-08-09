@@ -3,6 +3,8 @@ layout: default
 title: Research
 nav_key: research
 permalink: /research/
+lang: en
+alternate_url: /ja/research/
 description: "Research interests and selected publications for Alvin Ka Yue Li."
 ---
 

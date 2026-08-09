@@ -3,6 +3,8 @@ layout: default
 title: Contact
 nav_key: contact
 permalink: /contact/
+lang: en
+alternate_url: /ja/contact/
 description: "Contact information for Alvin Ka Yue Li."
 ---
 

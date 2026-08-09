@@ -3,6 +3,8 @@ layout: default
 title: Gravitational-Wave Lensing
 nav_key: interests
 permalink: /interests/targeted-lensing/
+lang: en
+alternate_url: /ja/interests/targeted-lensing/
 description: "Gravitational-wave lensing research by Alvin Ka Yue Li."
 ---
 

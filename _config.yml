@@ -30,6 +30,29 @@ navigation:
     key: "contact"
     url: "/contact/"
 
+navigation_ja:
+  - title: "ホーム"
+    key: "home"
+    url: "/ja/"
+  - title: "プロフィール"
+    key: "about"
+    url: "/ja/about/"
+  - title: "研究関心"
+    key: "interests"
+    url: "/ja/interests/"
+  - title: "研究"
+    key: "research"
+    url: "/ja/research/"
+  - title: "教育"
+    key: "teaching"
+    url: "/ja/teaching/"
+  - title: "履歴書"
+    key: "cv"
+    url: "/ja/cv/"
+  - title: "連絡先"
+    key: "contact"
+    url: "/ja/contact/"
+
 exclude:
   - reference/
   - vendor/

@@ -3,6 +3,8 @@ layout: default
 title: Teaching
 nav_key: teaching
 permalink: /teaching/
+lang: en
+alternate_url: /ja/teaching/
 description: "Teaching, mentoring, and outreach by Alvin Ka Yue Li."
 ---
 

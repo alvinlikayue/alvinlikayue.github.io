@@ -2,6 +2,8 @@
 layout: default
 title: Home
 nav_key: home
+lang: en
+alternate_url: /ja/
 description: "Research website for Alvin Ka Yue Li."
 ---
 

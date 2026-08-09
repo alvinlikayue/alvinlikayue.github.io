@@ -3,6 +3,8 @@ layout: default
 title: About
 nav_key: about
 permalink: /about/
+lang: en
+alternate_url: /ja/about/
 description: "About Alvin Ka Yue Li."
 ---
 

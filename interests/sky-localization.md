@@ -3,6 +3,8 @@ layout: default
 title: Sky Localization
 nav_key: interests
 permalink: /interests/sky-localization/
+lang: en
+alternate_url: /ja/interests/sky-localization/
 description: "Sky localization and follow-up for gravitational-wave sources by Alvin Ka Yue Li."
 ---
 

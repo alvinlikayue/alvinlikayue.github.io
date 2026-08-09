@@ -3,6 +3,8 @@ layout: default
 title: CV
 nav_key: cv
 permalink: /cv/
+lang: en
+alternate_url: /ja/cv/
 description: "Curriculum vitae for Alvin Ka Yue Li."
 ---
 

@@ -3,6 +3,8 @@ layout: default
 title: GWTC-5 / O4b Lensing Incident
 nav_key: interests
 permalink: /interests/gwtc5-o4b-lensing-incident/
+lang: en
+alternate_url: /ja/interests/gwtc5-o4b-lensing-incident/
 description: "A first-person account of Alvin Ka Yue Li's role in the GWTC-5/O4b lensing-paper validation, governance, and publication-strategy dispute."
 ---
 
