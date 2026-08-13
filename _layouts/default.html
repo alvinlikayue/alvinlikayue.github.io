@@ -4,7 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description | default: site.description }}">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% if page.alternate_url %}
+        <link rel="alternate" hreflang="{% if page.lang == 'ja' %}en{% else %}ja{% endif %}" href="{{ page.alternate_url | absolute_url }}">
+        <link rel="alternate" hreflang="{{ page.lang | default: 'en' }}" href="{{ page.url | absolute_url }}">
+        <link rel="alternate" hreflang="x-default" href="{% if page.lang == 'ja' %}{{ page.alternate_url | absolute_url }}{% else %}{{ page.url | absolute_url }}{% endif %}">
+    {% endif %}
+    <meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:card" content="summary">
+    {% if page.person_schema %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alvin Ka Yue Li",
+      "alternateName": [
+        "Alvin K. Y. Li",
+        "Alvin Li"
+      ],
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ '/assets/images/alvin_croucher.jpg' | absolute_url }}",
+      "jobTitle": "Gravitational-wave physicist",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "The University of Tokyo",
+        "url": "https://www.u-tokyo.ac.jp/"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The University of Tokyo",
+        "url": "https://www.u-tokyo.ac.jp/"
+      },
+      "knowsAbout": [
+        "Gravitational-wave data analysis",
+        "Low-latency gravitational-wave detection",
+        "Sky localization",
+        "Gravitational-wave lensing"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-6728-6523",
+        "https://researchmap.jp/alvinli?lang=ja",
+        "https://github.com/alvinlikayue",
+        "https://croucher.org.hk/en/fellows-and-scholars/alvin-li",
+        "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202601001437943245"
+      ]
+    }
+    </script>
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>

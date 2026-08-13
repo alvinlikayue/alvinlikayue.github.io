@@ -5,6 +5,8 @@ nav_key: home
 permalink: /ja/
 lang: ja
 alternate_url: /
+seo_title: "Alvin Ka Yue Li | 重力波物理学者・東京大学"
+person_schema: true
 description: "Alvin Ka Yue Li の研究ウェブサイト。"
 ---
 

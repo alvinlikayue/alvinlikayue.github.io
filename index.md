@@ -4,6 +4,8 @@ title: Home
 nav_key: home
 lang: en
 alternate_url: /ja/
+seo_title: "Alvin Ka Yue Li | Gravitational-Wave Physicist, University of Tokyo"
+person_schema: true
 description: "Research website for Alvin Ka Yue Li."
 ---
 

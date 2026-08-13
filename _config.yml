@@ -7,6 +7,10 @@ author:
   name: "Alvin Ka Yue Li"
   email: "alvinli@g.ecc.u-tokyo.ac.jp"
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
 navigation:
   - title: "Home"
     key: "home"
