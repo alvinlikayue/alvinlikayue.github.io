@@ -1,0 +1,63 @@
+# Configure GitHub authentication before using the published editor.
+# See README.md for Netlify OAuth or an external OAuth service.
+backend:
+  name: github
+  repo: alvinlikayue/alvinlikayue.github.io
+  branch: main
+  # With Netlify OAuth, uncomment and set the Netlify site's hostname:
+  # site_domain: your-auth-site.netlify.app
+  # With an external OAuth service, use these instead:
+  # base_url: https://your-auth-service.example
+  # auth_endpoint: auth
+
+publish_mode: editorial_workflow
+media_folder: assets/images/blog
+public_folder: /assets/images/blog
+site_url: https://alvinlikayue.github.io
+display_url: https://alvinlikayue.github.io
+logo_url: https://alvinlikayue.github.io/assets/images/logo.png
+show_preview_links: false
+
+collections:
+  - name: posts_en
+    label: English posts
+    label_singular: English post
+    folder: _posts
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss ZZ"}
+      - {label: Summary, name: description, widget: text, required: false}
+      - {label: Cover image, name: image, widget: image, required: false}
+      - {label: Cover image description, name: image_alt, widget: string, required: false, hint: "Describe the image for readers using screen readers."}
+      - {label: Tags, name: tags, widget: list, required: false}
+      - {label: Japanese translation URL, name: alternate_url, widget: string, required: false, hint: "Optional published path, e.g. /ja/blog/2026/09/30/my-post/. Leave blank if there is no translation."}
+      - {label: Layout, name: layout, widget: hidden, default: post}
+      - {label: Language, name: lang, widget: hidden, default: en}
+      - {label: Navigation, name: nav_key, widget: hidden, default: blog}
+      - {label: Body, name: body, widget: markdown}
+  - name: posts_ja
+    label: Japanese posts
+    label_singular: Japanese post
+    folder: ja/_posts
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - {label: タイトル, name: title, widget: string}
+      - {label: 日付, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss ZZ"}
+      - {label: 概要, name: description, widget: text, required: false}
+      - {label: カバー画像, name: image, widget: image, required: false}
+      - {label: 画像の説明, name: image_alt, widget: string, required: false}
+      - {label: タグ, name: tags, widget: list, required: false}
+      - {label: English translation URL, name: alternate_url, widget: string, required: false, hint: "Optional published path, e.g. /blog/2026/09/30/my-post/. Leave blank if there is no translation."}
+      - {label: Layout, name: layout, widget: hidden, default: post}
+      - {label: Language, name: lang, widget: hidden, default: ja}
+      - {label: Navigation, name: nav_key, widget: hidden, default: blog}
+      - {label: 本文, name: body, widget: markdown}

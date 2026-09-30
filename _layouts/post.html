@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<header>
+  <p class="eyebrow">{% if page.lang == 'ja' %}ブログ{% else %}Blog{% endif %}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'ja' %}{{ page.date | date: "%Y年%-m月%-d日" }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</time></p>
+  {% if page.description %}<p class="lead">{{ page.description | escape }}</p>{% endif %}
+  {% if page.image %}
+  <figure class="visual-panel">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: '' | escape }}">
+  </figure>
+  {% endif %}
+</header>
+
+{{ content }}
+
+{% if page.tags.size > 0 %}
+<p class="meta">{% if page.lang == 'ja' %}タグ{% else %}Tags{% endif %}: {{ page.tags | join: ', ' | escape }}</p>
+{% endif %}
+<p><a href="{% if page.lang == 'ja' %}{{ '/ja/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}">&larr; {% if page.lang == 'ja' %}ブログ一覧に戻る{% else %}All posts{% endif %}</a></p>

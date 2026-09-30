@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog
+nav_key: blog
+permalink: /blog/
+lang: en
+alternate_url: /ja/blog/
+description: "Notes and updates from Alvin Ka Yue Li."
+---
+
+<h1>Blog</h1>
+<p class="lead">Notes on research, teaching, and life in gravitational-wave physics.</p>
+
+{% assign posts = site.posts | where: 'lang', 'en' %}
+{% if posts.size > 0 %}
+<div class="section-grid">
+  {% for post in posts %}
+  <article class="card">
+    <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+    <a href="{{ post.url | relative_url }}">Read post &rarr;</a>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p>No posts yet. Check back for updates.</p>
+{% endif %}

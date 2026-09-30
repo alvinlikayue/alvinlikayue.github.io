@@ -1,0 +1,28 @@
+---
+layout: default
+title: ブログ
+nav_key: blog
+permalink: /ja/blog/
+lang: ja
+alternate_url: /blog/
+description: "Alvin Ka Yue Li の近況と研究・教育に関する記録。"
+---
+
+<h1>ブログ</h1>
+<p class="lead">重力波物理学の研究、教育、日々の活動について。</p>
+
+{% assign posts = site.posts | where: 'lang', 'ja' %}
+{% if posts.size > 0 %}
+<div class="section-grid">
+  {% for post in posts %}
+  <article class="card">
+    <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%-m月%-d日" }}</time></p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+    <a href="{{ post.url | relative_url }}">記事を読む &rarr;</a>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<p>記事はまだありません。更新をお待ちください。</p>
+{% endif %}
