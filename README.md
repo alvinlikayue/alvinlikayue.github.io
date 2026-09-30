@@ -5,6 +5,9 @@ the repository root; Japanese content lives in `ja/`.
 
 ## Local preview
 
+The `.ruby-version` file pins Ruby to 3.2.0 for Netlify builds, keeping it
+compatible with Bundler 2.2.19 in the existing lockfile.
+
 ```sh
 bundle install
 bundle exec jekyll serve
