@@ -18,9 +18,12 @@ Open `http://localhost:4000`. To build without starting a server, run
 
 ## Blog editor
 
-The public blog lives at `/blog/` and `/ja/blog/`. The Decap CMS editor lives at
-`/admin/`. Its configuration is in `admin/config.yml` and targets the `main`
-branch of `alvinlikayue/alvinlikayue.github.io`.
+The public blog lives at `/blog/` and `/ja/blog/`. Use the Decap CMS editor at
+`https://alvinlikayue.netlify.app/admin/`. GitHub Pages' `/admin/` redirects there
+so the editor runs on the same domain as the Netlify OAuth project, allowing the
+authorization popup to hand its result back to the editor. Local previews still
+load the editor without redirecting. Its configuration is in `admin/config.yml`
+and targets the `main` branch of `alvinlikayue/alvinlikayue.github.io`.
 
 The editor is configured to use Netlify project
 `alvinlikayue.netlify.app` for GitHub OAuth. Its GitHub authentication
@@ -30,8 +33,9 @@ primary site remains hosted on GitHub Pages.
 
 ### Option A: Netlify's GitHub OAuth service
 
-1. Create a Netlify project with a `*.netlify.app` hostname. It can be a minimal
-   static project used for authentication; it does not need to build this site.
+1. Connect this repository to the Netlify project with the
+   `alvinlikayue.netlify.app` hostname. Use `bundle exec jekyll build` as the build
+   command and `_site` as the publish directory so `/admin/` is deployed there.
 2. In [GitHub OAuth Apps](https://github.com/settings/developers), register an app.
    Use `https://alvinlikayue.github.io` as its homepage and
    `https://api.netlify.com/auth/done` as the authorization callback URL.
@@ -41,8 +45,10 @@ primary site remains hosted on GitHub Pages.
 4. `backend.site_domain` in `admin/config.yml` is already set to
    `alvinlikayue.netlify.app`. If the Netlify project changes, update it
    to the new hostname, without `https://`.
-5. Deploy the changes through the repository's GitHub Pages publishing branch,
-   then visit `https://alvinlikayue.github.io/admin/` and sign in with GitHub.
+5. Wait for the Netlify deployment to finish, then visit
+   `https://alvinlikayue.netlify.app/admin/` and click **Login with GitHub**.
+   Leave the editor open until the popup finishes. If Netlify requests access to
+   the protected site first, sign in with the Netlify account that owns it.
 
 See [Netlify's OAuth instructions](https://docs.netlify.com/manage/security/secure-access-to-sites/oauth-provider-tokens/)
 and [Decap's GitHub backend documentation](https://decapcms.org/docs/github-backend/).
@@ -54,6 +60,8 @@ If you already run a Decap-compatible GitHub OAuth service, configure
 `backend.base_url` and `backend.auth_endpoint` in `admin/config.yml` instead of
 `site_domain`. Configure its GitHub OAuth callback and permitted origin for
 `https://alvinlikayue.github.io` according to that service's instructions.
+Remove the GitHub Pages redirect in `admin/index.html` if switching to an external
+service and hosting the editor on GitHub Pages again.
 
 See [Decap's external OAuth clients](https://decapcms.org/docs/external-oauth-clients/).
 

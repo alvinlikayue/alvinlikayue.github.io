@@ -5,9 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>Blog editor | Alvin Ka Yue Li</title>
+  <link href="config.yml?v=netlify-editor-1" type="text/yaml" rel="cms-config-url">
 </head>
 <body>
   <noscript>Please enable JavaScript to use the blog editor.</noscript>
-  <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.16.3/dist/decap-cms.js"></script>
+  <script>
+    // Keep the editor on the domain registered with Netlify's OAuth provider.
+    if (window.location.hostname === 'alvinlikayue.github.io') {
+      window.location.replace('https://alvinlikayue.netlify.app/admin/');
+    } else {
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/decap-cms@3.16.3/dist/decap-cms.js';
+      document.body.appendChild(script);
+    }
+  </script>
 </body>
 </html>
