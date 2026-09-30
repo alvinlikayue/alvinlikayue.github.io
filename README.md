@@ -22,9 +22,11 @@ The public blog lives at `/blog/` and `/ja/blog/`. The Decap CMS editor lives at
 `/admin/`. Its configuration is in `admin/config.yml` and targets the `main`
 branch of `alvinlikayue/alvinlikayue.github.io`.
 
-**GitHub sign-in is not configured yet.** Complete one of the authentication
-options below before using the deployed editor. The site remains hosted on
-GitHub Pages.
+The editor is configured to use Netlify project
+`curious-wisp-c6e2eb.netlify.app` for GitHub OAuth. Its GitHub authentication
+provider must be installed in the Netlify dashboard before sign-in works;
+repository access for deployment alone does not enable that provider. The
+primary site remains hosted on GitHub Pages.
 
 ### Option A: Netlify's GitHub OAuth service
 
@@ -36,8 +38,9 @@ GitHub Pages.
 3. In the Netlify project's **Project configuration → Security → OAuth**, select
    **Install Provider**, choose GitHub, and enter the app's Client ID and Client
    Secret. Store the secret there, never in this repository.
-4. In `admin/config.yml`, uncomment `backend.site_domain` and replace the example
-   with that Netlify project's hostname, without `https://`.
+4. `backend.site_domain` in `admin/config.yml` is already set to
+   `curious-wisp-c6e2eb.netlify.app`. If the Netlify project changes, update it
+   to the new hostname, without `https://`.
 5. Deploy the changes through the repository's GitHub Pages publishing branch,
    then visit `https://alvinlikayue.github.io/admin/` and sign in with GitHub.
 

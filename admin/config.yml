@@ -1,11 +1,10 @@
-# Configure GitHub authentication before using the published editor.
-# See README.md for Netlify OAuth or an external OAuth service.
+# GitHub sign-in uses the OAuth provider configured on this Netlify project.
+# See README.md for the required account-side provider setup.
 backend:
   name: github
   repo: alvinlikayue/alvinlikayue.github.io
   branch: main
-  # With Netlify OAuth, uncomment and set the Netlify site's hostname:
-  # site_domain: your-auth-site.netlify.app
+  site_domain: curious-wisp-c6e2eb.netlify.app
   # With an external OAuth service, use these instead:
   # base_url: https://your-auth-service.example
   # auth_endpoint: auth
