@@ -5,7 +5,7 @@ nav_key: home
 permalink: /ja/
 lang: ja
 alternate_url: /
-seo_title: "Alvin Ka Yue Li | 重力波物理学者・東京大学"
+seo_title: "Alvin Ka Yue Li | プロジェクト助教・東京大学"
 person_schema: true
 description: "Alvin Ka Yue Li の研究ウェブサイト。"
 ---
@@ -14,7 +14,7 @@ description: "Alvin Ka Yue Li の研究ウェブサイト。"
   <div>
     <p class="eyebrow">重力波データ解析</p>
     <h1>Alvin Ka Yue Li</h1>
-    <p class="lead">東京大学で重力波データ解析、低レイテンシ検出、天空位置推定、重力波レンズ効果の研究に取り組む物理学者です。</p>
+    <p class="lead">東京大学のプロジェクト助教として、重力波データ解析、低レイテンシ検出、天空位置推定、重力波レンズ効果の研究に取り組んでいます。</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/ja/about/' | relative_url }}">プロフィール</a>
       <a class="button" href="{{ '/ja/research/' | relative_url }}">研究</a>
@@ -33,7 +33,7 @@ description: "Alvin Ka Yue Li の研究ウェブサイト。"
 <div class="section-grid">
   <article class="card">
     <h3>所属</h3>
-    <p>東京大学、元 CUHK 研究員、2026年9月からのプロジェクト助教予定。</p>
+    <p>2026年9月から東京大学のプロジェクト助教。元 CUHK 研究員。</p>
     <a href="{{ '/ja/about/' | relative_url }}">詳しく見る</a>
   </article>
   <article class="card">

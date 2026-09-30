@@ -4,7 +4,7 @@ title: Home
 nav_key: home
 lang: en
 alternate_url: /ja/
-seo_title: "Alvin Ka Yue Li | Gravitational-Wave Physicist, University of Tokyo"
+seo_title: "Alvin Ka Yue Li | Project Assistant Professor, University of Tokyo"
 person_schema: true
 description: "Research website for Alvin Ka Yue Li."
 ---
@@ -13,7 +13,7 @@ description: "Research website for Alvin Ka Yue Li."
   <div>
     <p class="eyebrow">Gravitational-wave data analysis</p>
     <h1>Alvin Ka Yue Li</h1>
-    <p class="lead">Physicist at the University of Tokyo working on gravitational-wave data analysis, low-latency detection, sky localization, and gravitational-wave lensing.</p>
+    <p class="lead">Project Assistant Professor at the Research Center for the Early Universe, University of Tokyo, working on gravitational-wave data analysis, low-latency detection, sky localization, and gravitational-wave lensing.</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/about/' | relative_url }}">About</a>
       <a class="button" href="{{ '/research/' | relative_url }}">Research</a>
@@ -32,7 +32,7 @@ description: "Research website for Alvin Ka Yue Li."
 <div class="section-grid">
   <article class="card">
     <h3>Appointments</h3>
-    <p>University of Tokyo; former researcher at CUHK; project appointment from September 2026.</p>
+    <p>Project Assistant Professor at the University of Tokyo since September 2026; former researcher at CUHK.</p>
     <a href="{{ '/about/' | relative_url }}">Learn more</a>
   </article>
   <article class="card">
