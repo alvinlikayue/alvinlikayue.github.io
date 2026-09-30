@@ -4,7 +4,7 @@ backend:
   name: github
   repo: alvinlikayue/alvinlikayue.github.io
   branch: main
-  site_domain: curious-wisp-c6e2eb.netlify.app
+  site_domain: alvinlikayue.netlify.app
   # With an external OAuth service, use these instead:
   # base_url: https://your-auth-service.example
   # auth_endpoint: auth
