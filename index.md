@@ -22,8 +22,8 @@ description: "Research website for Alvin Ka Yue Li."
     </div>
   </div>
   <figure class="visual-panel">
-    <img src="{{ '/assets/images/alvin_croucher.jpg' | relative_url }}" alt="Alvin Li portrait photo from Croucher Foundation">
-    <figcaption class="caption">Official Croucher profile photo from <a href="https://croucher.org.hk/en/fellows-and-scholars/alvin-li">Alvin Li | Fellows and scholars</a>.</figcaption>
+    <img src="{{ '/assets/images/alvin_researchmap.jpg' | relative_url }}" alt="Alvin Ka Yue Li profile photo from researchmap">
+    <figcaption class="caption">Profile photo from <a href="https://researchmap.jp/alvinli">researchmap</a>.</figcaption>
   </figure>
 </section>
 

@@ -23,8 +23,8 @@ description: "Alvin Ka Yue Li の研究ウェブサイト。"
     </div>
   </div>
   <figure class="visual-panel">
-    <img src="{{ '/assets/images/alvin_croucher.jpg' | relative_url }}" alt="Croucher Foundation の Alvin Li 公式プロフィール写真">
-    <figcaption class="caption"><a href="https://croucher.org.hk/en/fellows-and-scholars/alvin-li">Alvin Li | Fellows and scholars</a> に掲載された Croucher Foundation の公式プロフィール写真。</figcaption>
+    <img src="{{ '/assets/images/alvin_researchmap.jpg' | relative_url }}" alt="researchmap の Alvin Ka Yue Li プロフィール写真">
+    <figcaption class="caption"><a href="https://researchmap.jp/alvinli">researchmap</a> に掲載されたプロフィール写真。</figcaption>
   </figure>
 </section>
 
