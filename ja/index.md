@@ -23,8 +23,8 @@ description: "Alvin Ka Yue Li の研究ウェブサイト。"
     </div>
   </div>
   <figure class="visual-panel">
-    <img src="{{ '/assets/images/alvin_researchmap.jpg' | relative_url }}" alt="researchmap の Alvin Ka Yue Li プロフィール写真">
-    <figcaption class="caption"><a href="https://researchmap.jp/alvinli">researchmap</a> に掲載されたプロフィール写真。</figcaption>
+    <img src="{{ '/assets/images/alvin_profile.jpg' | relative_url }}" alt="KAGRA のロゴを表示したノートパソコンの隣に座る Alvin Ka Yue Li">
+    <figcaption class="caption">Alvin Ka Yue Li。</figcaption>
   </figure>
 </section>
 

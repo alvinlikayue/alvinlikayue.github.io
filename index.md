@@ -22,8 +22,8 @@ description: "Research website for Alvin Ka Yue Li."
     </div>
   </div>
   <figure class="visual-panel">
-    <img src="{{ '/assets/images/alvin_researchmap.jpg' | relative_url }}" alt="Alvin Ka Yue Li profile photo from researchmap">
-    <figcaption class="caption">Profile photo from <a href="https://researchmap.jp/alvinli">researchmap</a>.</figcaption>
+    <img src="{{ '/assets/images/alvin_profile.jpg' | relative_url }}" alt="Alvin Ka Yue Li seated beside a laptop displaying the KAGRA logo">
+    <figcaption class="caption">Alvin Ka Yue Li.</figcaption>
   </figure>
 </section>
 
