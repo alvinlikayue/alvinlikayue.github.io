@@ -438,6 +438,13 @@ description: "Teaching, mentoring, and outreach by Alvin Ka Yue Li."
 
 <div class="timeline">
   <div class="timeline-item">
+    <strong><a href="https://alvinlikayue.github.io/2025_halloween_mystery_utokyo_resceu/">2025 Halloween Science Mystery: 宇宙で一番優しい音</a></strong>
+    <span class="meta">2025 · Japanese-language puzzle adventure</span>
+    <p>Created and directed a Halloween mystery inspired by Detective Conan and Kaito Kid, with seven puzzles drawing on real science. The adventure connects scientific ideas with storytelling and interactive problem-solving.</p>
+    <a href="https://alvinlikayue.github.io/2025_halloween_mystery_utokyo_resceu/" lang="ja">Explore the mystery (日本語) &rarr;</a>
+  </div>
+
+  <div class="timeline-item">
     <strong>LIGO Gravitational-Wave Booth, Pi Day Outreach</strong>
     <span class="meta">Pasadena City College, 2023 and 2024</span>
     <p>Designed and led interactive gravitational-wave demonstrations for students and the public.</p>

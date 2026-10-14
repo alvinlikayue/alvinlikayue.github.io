@@ -296,6 +296,13 @@ description: "Alvin Ka Yue Li による教育、メンタリング、アウト�
 
 <div class="timeline">
   <div class="timeline-item">
+    <strong><a href="https://alvinlikayue.github.io/2025_halloween_mystery_utokyo_resceu/">2025 ハロウィン・サイエンスミステリー：宇宙で一番優しい音</a></strong>
+    <span class="meta">2025年 · 日本語の謎解きアドベンチャー</span>
+    <p>名探偵コナンと怪盗キッドに着想を得たハロウィンの謎解き作品を制作・監修しました。現実の科学をヒントにした七つの謎を通して、科学のアイデアと物語、インタラクティブな問題解決をつなぐ冒険です。</p>
+    <a href="https://alvinlikayue.github.io/2025_halloween_mystery_utokyo_resceu/">謎解きを始める &rarr;</a>
+  </div>
+
+  <div class="timeline-item">
     <strong>LIGO Gravitational-Wave Booth, Pi Day Outreach</strong>
     <span class="meta">Pasadena City College, 2023年・2024年</span>
     <p>学生と一般向けのインタラクティブな重力波デモを設計し、実施しました。</p>
