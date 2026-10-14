@@ -50,7 +50,8 @@ description: "Curriculum vitae for Alvin Ka Yue Li."
 
 <ul class="list-clean">
   <li><strong>Co-organizer and Lecturer, Gravitational Wave Open Data Workshop Tokyo 2026</strong><br><span class="meta">Spring 2026</span></li>
-  <li><strong>Co-chair, KAGRA Low-Latency Group</strong><br><span class="meta">2025 - present</span></li>
+  <li><strong>KAGRA co-chair, IGWN Low-Latency Alert Working Group</strong><br><span class="meta">Current</span></li>
+  <li><strong>Co-chair, IGWN Gravitational Lensing Working Group</strong><br><span class="meta">Current</span></li>
   <li><strong>Editorial Team Chair, O4b Lensing Paper, LVK Collaboration</strong><br><span class="meta">2025 - 2026</span></li>
   <li><strong>Host Supervisor, Summer Undergraduate Research Exchange Programme, CUHK-UTokyo</strong><br><span class="meta">Summer 2025</span></li>
   <li><strong>Analyst and Editorial Team Member, O4a and O3b Lensing Papers, LVK Collaboration</strong><br><span class="meta">2023 - 2025</span></li>

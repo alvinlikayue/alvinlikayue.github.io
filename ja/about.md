@@ -19,7 +19,8 @@ description: "Alvin Ka Yue Li のプロフィール。"
   </div>
   <div>
     <span class="summary-label">共同研究での役割</span>
-    <strong>KAGRA Low-Latency Group 共同議長</strong>
+    <strong>IGWN Low-Latency Alert Working Group KAGRA 共同議長</strong><br>
+    <strong>IGWN Gravitational Lensing Working Group 共同議長</strong>
   </div>
   <div>
     <span class="summary-label">支援</span>

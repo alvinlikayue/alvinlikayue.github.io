@@ -15,7 +15,7 @@ description: "Alvin Ka Yue Li による低レイテンシ重力波検出とア�
 <div class="research-summary">
   <div>
     <span class="summary-label">役割</span>
-    <strong>KAGRA Low-Latency Group 共同議長</strong>
+    <strong>IGWN Low-Latency Alert Working Group KAGRA 共同議長</strong>
   </div>
   <div>
     <span class="summary-label">範囲</span>

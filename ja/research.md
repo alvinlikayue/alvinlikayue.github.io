@@ -21,7 +21,8 @@ description: "Alvin Ka Yue Li の研究関心と代表的な出版物。"
   </div>
   <div>
     <span class="summary-label">共同研究での役割</span>
-    <strong>KAGRA Low-Latency Group 共同議長</strong>
+    <strong>IGWN Low-Latency Alert Working Group KAGRA 共同議長</strong><br>
+    <strong>IGWN Gravitational Lensing Working Group 共同議長</strong>
   </div>
   <div>
     <span class="summary-label">手法</span>
@@ -44,7 +45,7 @@ description: "Alvin Ka Yue Li の研究関心と代表的な出版物。"
     <span class="research-number">02</span>
     <div>
       <h3>低レイテンシ検出とアラート基盤</h3>
-      <p>KAGRA Low-Latency Group の共同議長として、マルチメッセンジャー追観測のためのリアルタイム重力波検出とアラートワークフローを調整しています。パイプライン統合、検証、LVK 観測ランに向けた準備が含まれます。</p>
+      <p>IGWN Low-Latency Alert Working Group の KAGRA 共同議長として、マルチメッセンジャー追観測のためのリアルタイム重力波検出とアラートワークフローを調整しています。パイプライン統合、検証、LVK 観測ランに向けた準備が含まれます。</p>
     </div>
   </section>
 

@@ -15,7 +15,7 @@ description: "Low-latency gravitational-wave detection and alerts by Alvin Ka Yu
 <div class="research-summary">
   <div>
     <span class="summary-label">Role</span>
-    <strong>Co-chair, KAGRA Low-Latency Group</strong>
+    <strong>KAGRA co-chair, IGWN Low-Latency Alert Working Group</strong>
   </div>
   <div>
     <span class="summary-label">Scope</span>

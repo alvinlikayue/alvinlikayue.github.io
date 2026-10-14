@@ -50,7 +50,8 @@ description: "Alvin Ka Yue Li の履歴書。"
 
 <ul class="list-clean">
   <li><strong>Gravitational Wave Open Data Workshop Tokyo 2026 共同主催・講師</strong><br><span class="meta">2026年春</span></li>
-  <li><strong>KAGRA Low-Latency Group 共同議長</strong><br><span class="meta">2025年 - 現在</span></li>
+  <li><strong>IGWN Low-Latency Alert Working Group KAGRA 共同議長</strong><br><span class="meta">現在</span></li>
+  <li><strong>IGWN Gravitational Lensing Working Group 共同議長</strong><br><span class="meta">現在</span></li>
   <li><strong>LVK Collaboration O4b Lensing Paper Editorial Team Chair</strong><br><span class="meta">2025年 - 2026年</span></li>
   <li><strong>CUHK-UTokyo Summer Undergraduate Research Exchange Programme 受入指導教員</strong><br><span class="meta">2025年夏</span></li>
   <li><strong>LVK Collaboration O4a・O3b Lensing Papers 解析担当・Editorial Team Member</strong><br><span class="meta">2023年 - 2025年</span></li>

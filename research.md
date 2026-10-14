@@ -21,7 +21,8 @@ My work is motivated by a central problem in gravitational-wave astronomy: many 
   </div>
   <div>
     <span class="summary-label">Collaboration role</span>
-    <strong>Co-chair, KAGRA Low-Latency Group</strong>
+    <strong>KAGRA co-chair, IGWN Low-Latency Alert Working Group</strong><br>
+    <strong>Co-chair, IGWN Gravitational Lensing Working Group</strong>
   </div>
   <div>
     <span class="summary-label">Methods</span>
@@ -44,7 +45,7 @@ My work is motivated by a central problem in gravitational-wave astronomy: many 
     <span class="research-number">02</span>
     <div>
       <h3>Low-latency detection and alert infrastructure</h3>
-      <p>As co-chair of the KAGRA Low-Latency Group, I coordinate real-time gravitational-wave detection and alert workflows for multi-messenger follow-up. This includes pipeline integration, validation, and readiness work for LVK observing runs.</p>
+      <p>As KAGRA co-chair of the IGWN Low-Latency Alert Working Group, I coordinate real-time gravitational-wave detection and alert workflows for multi-messenger follow-up. This includes pipeline integration, validation, and readiness work for LVK observing runs.</p>
     </div>
   </section>
 
